@@ -1,5 +1,13 @@
 .button_buy {
-   display: flex;
-   align-content: center;
+   margin-top: 25px;
+   padding: 0;
 
+}
+
+.fix_w {
+width: 0px;
+}
+.images {
+    width: 100px;
+    height: 100px;
 }
