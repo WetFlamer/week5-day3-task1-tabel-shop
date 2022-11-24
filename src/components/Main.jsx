@@ -10,10 +10,8 @@ function Main(props){
             <td>{props.name}</td>
             <td>{props.price} ₽</td>
             <td>{props.left}</td>
-            <td className={styles.fix_w}><img  className={styles.images} src={props.image} alt="" /></td>
-       <td className={styles.fix_w}>     <Button className={styles.button_buy} variant="primary" size="lg">
-          Купить
-        </Button></td>
+            <td  className={styles.fix_w}><img  className={styles.images} src={props.image} alt="" /></td>
+       <td className={styles.fix_w}>  <Button className={styles.button_buy} href="#">Купить</Button></td>
           </tr>
         </tbody>
 
